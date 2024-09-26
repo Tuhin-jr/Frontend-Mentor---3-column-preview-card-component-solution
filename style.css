@@ -1,0 +1,165 @@
+:root {
+  --primaryFont: 'Lexend Deca', sans-serif;
+  --secFont: 'Big Shoulders Display', sans-serif;
+
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+  /* paragraphs */
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --veryLightGray: hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  height: 100%;
+  width: auto;
+}
+
+body {
+  font-family: var(--primaryFont);
+  color: var(--transparentWhite);
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--secFont);
+  color: var(--veryLightGray);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-area {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+.card {
+  width: 736px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.three-section {
+  padding: 2.25rem;
+}
+
+.three-section img {
+  margin-bottom: 2px;
+  height: 30px;
+}
+
+.three-section h1 {
+  font-size: 2rem;
+  margin: 1.25rem 0;
+}
+.three-section p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 65px;
+  opacity: 0.9;
+  letter-spacing: 0.2px;
+}
+
+button {
+  padding: 9px 22px;
+  border: 2px solid var(--veryLightGray);
+  border-radius: 30px;
+}
+button:active,
+button:hover {
+  background: transparent;
+}
+
+button a {
+  font-weight: 400;
+}
+
+.sedan {
+  flex-basis: 307px;
+  background: var(--brightOrange);
+  border-radius: 10px 0 0 10px;
+}
+.sedan button a {
+  text-decoration: none;
+  color: var(--brightOrange);
+}
+
+.suv {
+  width: 307px;
+  background: var(--darkCyan);
+  box-sizing: border-box;
+}
+
+.suv button a {
+  text-decoration: none;
+  color: var(--darkCyan);
+}
+
+.luxury {
+  flex-basis: 307px;
+  background: var(--veryDarkCyan);
+  border-radius: 0 10px 10px 0;
+}
+
+.luxury button a {
+  text-decoration: none;
+  color: var(--veryDarkCyan);
+}
+
+button:active a,
+button:hover a {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .main-area {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 260px;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .three-section {
+    width: 100%;
+  }
+
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
