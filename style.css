@@ -53,7 +53,7 @@ h3 {
   margin: 0 auto;
 }
 .card {
-  width: 736px;
+  width: 921px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,6 +86,7 @@ button {
   padding: 9px 22px;
   border: 2px solid var(--veryLightGray);
   border-radius: 30px;
+  cursor: pointer;
 }
 button:active,
 button:hover {
