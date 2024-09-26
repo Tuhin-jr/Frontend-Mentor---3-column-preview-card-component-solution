@@ -53,7 +53,7 @@ h3 {
   margin: 0 auto;
 }
 .card {
-  width: 735px;
+  width: 921px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,28 +62,26 @@ h3 {
 }
 
 .three-section {
-  padding: 2.25rem;
+  padding: 48px;
 }
 
 .three-section img {
-  margin-bottom: 2px;
-  height: 30px;
+  margin-bottom: 4px;
 }
 
 .three-section h1 {
   font-size: 2rem;
-  margin: 1.25rem 0;
+  margin: 26px 0;
 }
 .three-section p {
-  font-size: 12px;
-  line-height: 20px;
-  margin-bottom: 65px;
-  opacity: 0.9;
-  letter-spacing: 0.2px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 80px;
+  opacity: 0.8;
 }
 
 button {
-  padding: 9px 22px;
+  padding: 12px 30px;
   border: 2px solid var(--veryLightGray);
   border-radius: 30px;
   cursor: pointer;
@@ -94,11 +92,12 @@ button:hover {
 }
 
 button a {
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .sedan {
-  flex-basis: 245px;
+  flex-basis: 307px;
   background: var(--brightOrange);
   border-radius: 10px 0 0 10px;
 }
@@ -108,7 +107,7 @@ button a {
 }
 
 .suv {
-  width: 245px;
+  width: 307px;
   background: var(--darkCyan);
   box-sizing: border-box;
 }
@@ -119,7 +118,7 @@ button a {
 }
 
 .luxury {
-  flex-basis: 245px;
+  flex-basis: 307px;
   background: var(--veryDarkCyan);
   border-radius: 0 10px 10px 0;
 }
@@ -136,18 +135,17 @@ button:hover a {
 
 @media (max-width: 500px) {
   body {
-    width: 300px;
     height: auto;
     margin: 0 auto;
   }
   .main-area {
-    width: 100%;
+    width: 375px;
     height: 100%;
     margin: 0 auto;
   }
 
   .card {
-    width: 260px;
+    width: 324px;
     flex-direction: column;
     padding: 50px 0;
   }
