@@ -36,6 +36,7 @@ body {
   font-family: var(--primaryFont);
   color: var(--transparentWhite);
   font-weight: 400;
+  font-size: 0.9375rem;
 }
 
 h1,
@@ -58,11 +59,12 @@ h3 {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 20px;
   height: 100%;
 }
 
 .three-section {
-  padding: 48px;
+  padding: 46px;
 }
 
 .three-section img {
@@ -70,30 +72,23 @@ h3 {
 }
 
 .three-section h1 {
-  font-size: 2rem;
+  font-size: 2.625rem;
   margin: 26px 0;
 }
 .three-section p {
-  font-size: 15px;
-  line-height: 24px;
+  letter-spacing: 0.0125rem;
+  line-height: 1.5rem;
   margin-bottom: 80px;
-  opacity: 0.8;
 }
 
 button {
+  font-weight: 700;
   padding: 12px 30px;
+  letter-spacing: 1px;
+  font-family: var(--primaryFont);
   border: 2px solid var(--veryLightGray);
   border-radius: 30px;
   cursor: pointer;
-}
-button:active,
-button:hover {
-  background: transparent;
-}
-
-button a {
-  font-size: 15px;
-  font-weight: 700;
 }
 
 .sedan {
@@ -101,8 +96,7 @@ button a {
   background: var(--brightOrange);
   border-radius: 10px 0 0 10px;
 }
-.sedan button a {
-  text-decoration: none;
+.sedan button {
   color: var(--brightOrange);
 }
 
@@ -112,8 +106,7 @@ button a {
   box-sizing: border-box;
 }
 
-.suv button a {
-  text-decoration: none;
+.suv button {
   color: var(--darkCyan);
 }
 
@@ -123,13 +116,15 @@ button a {
   border-radius: 0 10px 10px 0;
 }
 
-.luxury button a {
-  text-decoration: none;
+.luxury button {
   color: var(--veryDarkCyan);
 }
-
-button:active a,
-button:hover a {
+button:active,
+button:hover {
+  background: transparent;
+}
+button:active,
+button:hover {
   color: white;
 }
 
