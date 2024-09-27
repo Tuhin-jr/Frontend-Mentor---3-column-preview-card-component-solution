@@ -53,6 +53,7 @@ h3 {
   background: var(--veryLightGray);
   height: 100%;
   margin: 0 auto;
+  padding-top: 20px;
 }
 .card {
   width: 921px;
@@ -60,7 +61,6 @@ h3 {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 20px;
   height: 100%;
 }
 
