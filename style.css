@@ -63,6 +63,9 @@ h3 {
   margin: 0 auto;
   height: 100%;
 }
+.card h1{
+  display: none;
+}
 
 .three-section {
   padding: 48px;
