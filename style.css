@@ -64,7 +64,7 @@ h3 {
 }
 
 .three-section {
-  padding: 46px;
+  padding: 48px;
 }
 
 .three-section img {
@@ -72,19 +72,19 @@ h3 {
 }
 
 .three-section h2 {
-  font-size: 2.625rem;
+  font-size: 2.5rem;
   margin: 26px 0;
 }
 .three-section p {
   letter-spacing: 0.0125rem;
   line-height: 1.625rem;
-  margin-bottom: 84px;
+  margin-bottom: 76px;
 }
 
 button {
-  font-weight: 700;
-  padding: 12px 30px;
+  padding: 14px 30px;
   letter-spacing: 1px;
+  font-size: 15px;
   font-family: var(--primaryFont);
   border: 2px solid var(--veryLightGray);
   border-radius: 30px;
