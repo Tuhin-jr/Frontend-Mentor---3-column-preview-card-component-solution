@@ -50,6 +50,7 @@ h3 {
 
 .main-area {
   max-width: 1440px;
+  background: var(--veryLightGray);
   height: 100%;
   margin: 0 auto;
 }
@@ -68,16 +69,16 @@ h3 {
 }
 
 .three-section img {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 .three-section h2 {
-  font-size: 2.375rem;
-  margin: 26px 0;
+  font-size: 2.4375rem;
+  margin: 24px 0;
 }
 .three-section p {
   line-height: 1.625rem;
-  margin-bottom: 84px;
+  margin-bottom: 83px;
 }
 
 button {
