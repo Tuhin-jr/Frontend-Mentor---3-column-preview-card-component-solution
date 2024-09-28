@@ -1,0 +1,159 @@
+:root {
+  --primaryFont: 'Lexend Deca', sans-serif;
+  --secFont: 'Big Shoulders Display', sans-serif;
+
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+  /* paragraphs */
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --veryLightGray: hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  height: 100%;
+  width: auto;
+}
+
+body {
+  font-family: var(--primaryFont);
+  color: var(--transparentWhite);
+  font-weight: 400;
+  font-size: 0.9375rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--secFont);
+  color: var(--veryLightGray);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-area {
+  max-width: 1440px;
+  background: var(--veryLightGray);
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.card {
+  width: 921px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.three-section {
+  padding: 48px;
+}
+
+.three-section img {
+  margin-bottom: 6px;
+}
+
+.three-section h1,
+.three-section h2 {
+  font-size: 2.5rem;
+  margin: 24px 0;
+}
+.three-section p {
+  line-height: 1.5625rem;
+  margin-bottom: 83px;
+}
+
+button {
+  padding: 14px 30px;
+  font-size: 15px;
+  font-family: var(--primaryFont);
+  border: 2px solid var(--veryLightGray);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.sedan {
+  flex-basis: 307px;
+  background: var(--brightOrange);
+  border-radius: 10px 0 0 10px;
+}
+.sedan button {
+  color: var(--brightOrange);
+}
+
+.suv {
+  width: 307px;
+  background: var(--darkCyan);
+  box-sizing: border-box;
+}
+
+.suv button {
+  color: var(--darkCyan);
+}
+
+.luxury {
+  flex-basis: 307px;
+  background: var(--veryDarkCyan);
+  border-radius: 0 10px 10px 0;
+}
+
+.luxury button {
+  color: var(--veryDarkCyan);
+}
+button:active,
+button:hover {
+  background: transparent;
+}
+button:active,
+button:hover {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  body {
+    height: auto;
+    margin: 0 auto;
+  }
+  .main-area {
+    width: 375px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 324px;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .three-section {
+    width: 100%;
+  }
+
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
