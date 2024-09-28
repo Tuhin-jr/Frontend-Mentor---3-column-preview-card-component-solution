@@ -69,7 +69,7 @@ h3 {
 }
 
 .three-section img {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .three-section h1,
@@ -83,7 +83,7 @@ h3 {
 }
 
 button {
-  padding: 14px 30px;
+  padding: 13px 30px;
   font-size: 15px;
   font-family: var(--primaryFont);
   border: 2px solid var(--veryLightGray);
